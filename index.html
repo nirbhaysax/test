@@ -406,9 +406,35 @@
 
         footer {
             border-top: 1px solid #000;
-            padding: 2rem 5%;
+            padding: 3rem 5% 2rem;
             text-align: center;
             color: #666;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .contact-section {
+            margin-bottom: 2rem;
+        }
+
+        .contact-section h3 {
+            font-size: 1.5rem;
+            color: #000;
+            margin-bottom: 1rem;
+        }
+
+        .contact-section a {
+            color: #000;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: opacity 0.3s;
+        }
+
+        .contact-section a:hover {
+            opacity: 0.6;
         }
 
         @media (max-width: 768px) {
@@ -629,7 +655,13 @@
     </section>
 
     <footer>
-        <p>&copy; 2025 JumpUp Tutoring. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="contact-section">
+                <h3>Contact us</h3>
+                <a href="mailto:contact@jumpuptutoring.co.uk">contact@jumpuptutoring.co.uk</a>
+            </div>
+            <p>&copy; 2025 JumpUp Tutoring. All rights reserved.</p>
+        </div>
     </footer>
 
     <script>
